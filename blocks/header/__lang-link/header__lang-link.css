@@ -9,11 +9,6 @@
   margin-bottom: 6px;
 }
 
-.header__lang-link:last-child {
-  margin-left: 18px;
-  text-decoration: none;
-}
-
 @media screen and (max-width: 767px) {
   .header__lang-link {
     width: 22px;

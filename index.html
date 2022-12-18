@@ -14,10 +14,16 @@
           src="./images/header-logo.svg"
           alt="Логотип"
         />
-        <div class="header__lang-links">
-          <a class="header__lang-link" href="#">Ru</a>
-          <a class="header__lang-link" href="#">En</a>
-        </div>
+        <ul class="header__lang-links">
+          <li><a class="header__lang-link" href="#">Ru</a></li>
+          <li>
+            <a
+              class="header__lang-link header__lang-link_bottomline_no"
+              href="#"
+              >En</a
+            >
+          </li>
+        </ul>
       </header>
 
       <section class="lead">
@@ -25,13 +31,13 @@
         <p class="lead__sutitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
-        <div>
-          <img
-            class="lead__images"
-            src="./images/lead-polka.jpg"
-            alt="Верхняя полка"
-          />
-        </div>
+
+        <img
+          class="lead__images"
+          src="./images/lead-polka.jpg"
+          alt="Верхняя полка"
+        />
+
         <p class="lead__caption">ваша полка — верхняя</p>
       </section>
 
@@ -128,8 +134,8 @@
         />
       </section>
 
-      <section class="places">
-        <div class="place">
+      <main class="places">
+        <section class="place">
           <h3 class="place__title">Куршская коса</h3>
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
@@ -158,9 +164,9 @@
               прохладного моря.
             </p>
           </div>
-        </div>
+        </section>
 
-        <div class="place">
+        <section class="place">
           <h3 class="place__title">Кольский</h3>
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
@@ -192,9 +198,9 @@
               в Мурманск.
             </p>
           </div>
-        </div>
+        </section>
 
-        <div class="place">
+        <section class="place">
           <h3 class="place__title">Алтай</h3>
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
@@ -225,9 +231,9 @@
               косули. И знаменитые манулы — тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
+        </section>
 
-        <div class="place">
+        <section class="place">
           <h3 class="place__title">Зимний Байкал</h3>
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
@@ -257,9 +263,9 @@
               «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
+        </section>
 
-        <div class="place">
+        <section class="place">
           <h3 class="place__title">Карелия</h3>
           <div class="place__website">
             <h4 class="place__url-heading">URL</h4>
@@ -285,8 +291,8 @@
               медвежьими когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
-      </section>
+        </section>
+      </main>
 
       <section class="cover">
         <a
@@ -303,32 +309,52 @@
       </section>
 
       <footer class="footer">
-        <nav class="footer__links">
-          <a class="footer__link" href="https://yandex.ru/maps" target="_blank"
-            >Карты</a
-          >
-          <a
-            class="footer__link"
-            href="https://yandex.ru/pogoda"
-            target="_blank"
-            >Погода</a
-          >
-          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank"
-            >Расписание</a
-          >
-          <a
-            class="footer__link"
-            href="https://calendar.yandex.ru"
-            target="_blank"
-            >Календарь</a
-          >
-          <a
-            class="footer__link"
-            href="https://travel.yandex.ru"
-            target="_blank"
-            >Путешествия</a
-          >
-        </nav>
+        <ul class="footer__links">
+          <li>
+            <a
+              class="footer__link"
+              href="https://yandex.ru/maps"
+              target="_blank"
+              >Карты</a
+            >
+          </li>
+
+          <li>
+            <a
+              class="footer__link"
+              href="https://yandex.ru/pogoda"
+              target="_blank"
+              >Погода</a
+            >
+          </li>
+
+          <li>
+            <a
+              class="footer__link"
+              href="https://rasp.yandex.ru"
+              target="_blank"
+              >Расписание</a
+            >
+          </li>
+
+          <li>
+            <a
+              class="footer__link"
+              href="https://calendar.yandex.ru"
+              target="_blank"
+              >Календарь</a
+            >
+          </li>
+
+          <li>
+            <a
+              class="footer__link"
+              href="https://travel.yandex.ru"
+              target="_blank"
+              >Путешествия</a
+            >
+          </li>
+        </ul>
 
         <div class="footer__copyright">&copy; 2020. Черноусов Владимир</div>
       </footer>
