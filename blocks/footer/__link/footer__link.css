@@ -5,7 +5,6 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
-  margin-right: 18px;
 }
 
 .footer__link:hover {
@@ -14,8 +13,6 @@
 
 @media screen and (max-width: 767px) {
   .footer__link {
-    margin-right: 0;
-    margin-bottom: 32px;
     font-size: 24px;
     line-height: 1;
   }
